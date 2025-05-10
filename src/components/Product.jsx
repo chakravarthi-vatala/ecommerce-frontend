@@ -85,7 +85,6 @@ const Product = () => {
             <p className="release-date" style={{ marginBottom: "2rem" }}>
               
               <h6>Listed : <span> <i> {new Date(product.releaseDate).toLocaleDateString()}</i></span></h6>
-              {/* <i> {new Date(product.releaseDate).toLocaleDateString()}</i> */}
             </p>
             </div>
             
@@ -146,7 +145,6 @@ const Product = () => {
             >
               Update
             </button>
-            {/* <UpdateProduct product={product} onUpdate={handleUpdate} /> */}
             <button
               className="btn btn-primary"
               type="button"

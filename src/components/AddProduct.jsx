@@ -21,7 +21,6 @@ const AddProduct = () => {
 
   const handleImageChange = (e) => {
     setImage(e.target.files[0]);
-    // setProduct({...product, image: e.target.files[0]})
   };
 
   const submitHandler = (event) => {
@@ -158,8 +157,7 @@ const AddProduct = () => {
             id="releaseDate"
           />
         </div>
-        {/* <input className='image-control' type="file" name='file' onChange={(e) => setProduct({...product, image: e.target.files[0]})} />
-    <button className="btn btn-primary" >Add Photo</button>  */}
+       
         <div className="col-md-4">
           <label className="form-label">
             <h6>Image</h6>
@@ -189,7 +187,6 @@ const AddProduct = () => {
           <button
             type="submit"
             className="btn btn-primary"
-            // onClick={submitHandler}
           >
             Submit
           </button>

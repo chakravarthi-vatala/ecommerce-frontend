@@ -1,8 +1,44 @@
-# React + Vite
+# 🛒 E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack e-commerce web app built using **React** , **Spring Boot (Java)**  and **MySQL** . The app allows users to browse products, add them to a cart, and manage inventory .
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./home.png)
+
+### 🛍️ View Product
+![Product Listing](./product.png)
+
+### ➕ Add Product 
+![Add Product](./add-product.png)
+
+### 🛒 Cart with Added Products
+![Cart Page](./cart.png)
+
+---
+
+## 🚀 Features
+
+### 🧑‍💻 For Customers:
+- Browse product listings with images and details
+- Add products to the cart
+- View and manage cart
+- Search and filter products
+
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology               |
+|--------------|---------------------------|
+| **Frontend** | React, TailwindCSS (or Bootstrap) |
+| **Backend**  | Spring Boot (Java)        |
+| **Database** | MySQL                     |
+| **API**      | RESTful APIs (JSON)       |
+| **Tools**    | Postman, VS Code, IntelliJ, Git |
+
+---
