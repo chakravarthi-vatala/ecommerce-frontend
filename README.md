@@ -7,16 +7,16 @@ A full-stack e-commerce web app built using **React** , **Spring Boot (Java)**  
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./home.png)
+![Home Page](./public/home.png)
 
 ### 🛍️ View Product
-![Product Listing](./product.png)
+![Product Listing](./public/product.png)
 
 ### ➕ Add Product 
-![Add Product](./add-product.png)
+![Add Product](./public/add-product.png)
 
 ### 🛒 Cart with Added Products
-![Cart Page](./cart.png)
+![Cart Page](./public/cart.png)
 
 ---
 
